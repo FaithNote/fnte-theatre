@@ -1,0 +1,4 @@
+When a Flipnote is uploaded, HTML and Python 3 will be there.
+Example:
+1.html
+1.py

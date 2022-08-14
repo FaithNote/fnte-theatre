@@ -1,0 +1,30 @@
+<!-- Code in both in python and in HTML.
+Code: If user gets warning message, redirect to page. 
+If not, redirect to home page.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./static/favicon.ico"static type="image/x-icon" />
+    <title>Faithnote - Not Approved</title>
+    <link href="./static/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Execute Python script here to redirect if the User's rank = 0 and notice = 1 (0 for no warnings, 1 for warning, 2 for ban)-->
+<div class="container">
+      <div class="box">
+        <div class="box-inner">
+          <img src="./static/img/fnte-notice.png" class="fnte-icon">
+<h1>Test Warn/Ban page</h1>
+          <p>You have been warned/banned for: </p>
+          <b>[Insert rule broken here lol]</b>
+          <p>Note: (Execute python script for warn or ban)</p>
+          <p class="right">Faithnote</p>
+          <center>
+          <button type="button" onclick="alert('On Warn: Message to say account has been reactivated!, On Ban: Redirects user to home page.')">(I agree, Reactivate) or (Log Out)</button>
+         </center>
+        </div>
+      </div>
+    </div>
+  </head>
+  <body>
