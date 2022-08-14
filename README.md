@@ -19,3 +19,8 @@
 <li>In response, Faithnote MAY have the <b>Flipnote Stars Parther Program</b>, which has more benefits when accessing Faithnote AND the ability to make money on top on your Faithnote creations.</li> 
 </ul>
 <p>(think of the <b>YT Parther Program</b> but <b>LESS RESTRICTIONS</b>)</p>
+<h2>Credits</h2>
+<ul>
+<li>Waybackmachine - OG Flipnote Hatena design</li>
+<li><a href="https://github.com/jaames/flipnote-player">Flipnote Player - Jaames</a></li>
+</ul>
