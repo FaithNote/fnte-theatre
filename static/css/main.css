@@ -49,3 +49,238 @@ h1 {
     font-size: 14px;
     line-height: 1.8;
 }
+
+div#header {
+    /* overflow: hidden; */
+    position: relative;
+}
+
+div#header-body {
+    width: 820px;
+    height: 37px;
+}
+
+div#global {
+    background: transparent url(../img/bg_global.gif) no-repeat scroll 0 bottom;
+    margin: 0 auto 15px;
+    padding: 0 0 10px 0;
+    width: 820px;
+}
+
+
+div#header, div#footer {
+    width: 820px;
+    margin: 0 auto;
+    text-align: left;
+    clear: both;
+}
+
+div.dropdown {
+    position: absolute;
+    background: #90c800;
+    margin: 20px auto;
+    padding: 1px 5px;
+    width: 300px;
+    z-index: 10000;
+}
+
+.ten-hidden {
+    display: none !important;
+}
+
+#header ul.header-links {
+    display: inline-block;
+    line-height: 37px;
+}
+ul.header-links {
+    color: white;
+    line-height: 54px;
+    float: right;
+    font-size: 75%;
+    display: inline-block;
+}
+
+div#global ul.menu {
+    background: transparent url(../img/bgglobalhd.gif) no-repeat scroll 0 top;
+    font-weight: bold;
+    padding: 10px 10px 0 5px;
+    text-align: left;
+    position: relative;
+    font-size: 90%;
+}
+
+div#global ul.menu li.global-top {
+    background: transparent url(../img/icon-top.png) no-repeat scroll 0 50%;
+    padding: 0px 0 0 24px;
+}
+
+div#global ul.menu li.global-movies {
+    background: transparent url(../img/icon-relationmovie.gif) no-repeat scroll 0 50%;
+}
+
+div#global ul.menu li.global-ranking {
+    background: transparent url(../img/icon-ranking.gif) no-repeat scroll 0 50%;
+    padding-top: 2px;
+}
+
+div#global ul.menu li.global-upload {
+    background: transparent url(../img/icon-upload.png) no-repeat scroll 0 50%;
+    padding-top: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+div#global ul.menu li.global-category {
+    background: transparent url(../img/category.gif) no-repeat scroll 0 50%;
+}
+
+div#global ul.menu li.global-special {
+    background: transparent url(../img/icon-special.gif) no-repeat scroll 0 50%;
+}
+
+div#global ul.menu li.global-search {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    white-space: nowrap;
+}
+
+div#global ul.menu li form input {
+    background: transparent url(../img/searchbutton.gif) no-repeat scroll right center;
+    font-size: 80%;
+    font-weight: bold;
+    margin-left: 3px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    padding-top: 4px;
+    text-decoration: none;
+    color: rgb(144, 200, 0);
+    border: 0px;
+}
+
+div#global ul.menu li.global-search span.commandosearch {
+    font-weight: normal;
+}
+
+div#global ul.menu li {
+    display: inline;
+    color: #fff;
+    font-size: 100%;
+    margin-left: 10px;
+    padding: 0px 0 0 20px;
+    line-height: 1em;
+}
+
+div#memo-navigation-top {
+    margin-bottom: 15px;
+}
+
+div.memo-navigation {
+    clear: both;
+}
+
+div.breadcrumbs {
+    height: 32px;
+    padding: 5px 0 0 5px;
+    font-family: sans-serif;
+    font-size: 80%;
+    background: url(../img/bg_breadcrumbs.png) no-repeat;
+    overflow: hidden;
+}
+div#global ul.menu li {
+    display: inline;
+    color: #fff;
+    font-size: 100%;
+    margin-left: 10px;
+    padding: 0px 0 0 20px;
+    line-height: 1em;
+}
+
+div.breadcrumbs span.selected {
+    display: block;
+    float: left;
+    width: auto;
+    padding: 8px 7px 10px 22px;
+    background: url(../img/breadcrumbs-selected.gif) top left no-repeat;
+    font-weight: bold;
+    overflow: hidden;
+    height: 50px;
+    color: #fff;
+}
+
+.breadcrumbs, .box-body.channel-navigation, .memo-navigation {
+    display: none;
+}
+
+div.box-body {
+    background: url(../img/bg_boxbody.png) repeat-y;
+    zoom: 1;
+}
+
+div.channel-navigation {
+    padding: 10px 12px 3px !important;
+    _padding: 4px 12px 0 !important;
+}
+
+div.channel-navigation span.sort-buttons {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+div.channel-navigation span {
+    margin-right: 0px;
+}
+
+div.channel-navigation span.sort-buttons {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.left-sort-btn {
+    background: transparent url(../img/icon_sort_on.gif) no-repeat scroll left center;
+}
+
+.left-sort-btn, .center-sort-l-btn, .center-sort-r-btn, .right-sort-btn {
+    color: #FFFFFF;
+    padding: 10px 7px;
+    font-weight: bold;
+    font-size: 80%;
+    zoom: 1;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+
+element.style {
+}
+div.channel-navigation span {
+    margin-right: 0px;
+}
+div.channel-navigation span {
+    margin-right: 5px;
+}
+a .center-sort-l-btn {
+    background: transparent url(../img/icon_sort_center_off.gif) no-repeat scroll right center;
+}
+a .left-sort-btn, a .center-sort-l-btn, a .center-sort-r-btn, a .right-sort-btn {
+    color: #90c800;
+    cursor: pointer;
+}
+.center-sort-l-btn, .center-sort-r-btn {
+    background: transparent url(../img/icon_sort_on.gif) no-repeat scroll center center;
+}
+
+div#header-body a {
+    color: #fff;
+}
+ul.header-links a {
+    text-decoration: none;
+}
