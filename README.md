@@ -1,5 +1,6 @@
 # Faithnote Theatre
 <p>Source code of the replicated Flipnote Hatena website designed for Faithnote Theatre. It will be made with <b>Python 3, HTML and CSS.</b></p>
+<p>This is a WIP, as not everything is added to the database yet.</p>
 
 <h2>Running the source code</h2>
 <h3>With Heroku</h3>
